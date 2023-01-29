@@ -18,5 +18,5 @@ from django.urls import path
 from newapp import views
  
 urlpatterns = [
-    path('', views.index, name='home'),
+    path('api/users', views.index, name='home'),
 ]
